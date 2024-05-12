@@ -10,9 +10,9 @@ pragma solidity >=0.6.12 <0.9.0;
 # Getting Launched
 Installing Remix Online IDE
 
-Complete all required installations ahead of time.
-Get "ErrorHandling.sol" from the original file and transfer it.
-Go to https: https://remix.ethereum.org start the IDE.
+* Complete all required installations ahead of time.
+* Get "ErrorHandling.sol" from the original file and transfer it.
+* Go to https: https://remix.ethereum.org start the IDE.
 
 # Using Remix to run a program
 Create folder inside Remix.
@@ -27,8 +27,8 @@ uint256 public balance;
 
 # //Function AddBalance
  function addBalance(uint256 _amount) public {
-        // Use require to ensure _amount is at least 100
-        require(_amount >= 100, "Amount must be at least 100");
+ // Use require to ensure _amount is at least 100
+ require(_amount >= 100, "Amount must be at least 100");
 
 # // Executing a assert() statement
 assert(balance + _amount > balance);
