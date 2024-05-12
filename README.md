@@ -28,15 +28,15 @@ uint256 public balance;
 # //Function AddBalance
  function addBalance(uint256 _amount) public {
  
- // Use require to ensure _amount is at least 100
+   // Use require to ensure _amount is at least 100
  
- require(_amount >= 100, "Amount must be at least 100");
+      require(_amount >= 100, "Amount must be at least 100");
 
 # // Executing a assert() statement
 assert(balance + _amount > balance);
 
 # // Executing a Require() statement
-require(_amount <= balance, "Insufficient balance");
+   require(_amount <= balance, "Insufficient balance");
 
 # Function RemoveBalance
 // Use require to ensure _amount is not greater than balance
